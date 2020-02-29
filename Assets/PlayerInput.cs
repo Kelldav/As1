@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+using UnityEngine.SceneManagement;
 // This script moves the character controller forward
 // and sideways based on the arrow keys.
 // It also jumps when pressing space.
@@ -24,6 +24,9 @@ public class PlayerInput : MonoBehaviour
 
     void Update()
     {
+        if(Input.GetButton("r")){
+          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
         if (characterController.isGrounded)
         {
             // We are grounded, so recalculate

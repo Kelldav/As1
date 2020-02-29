@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerPlatformController : MonoBehaviour {
   public float movementSpeed = 5.0f;
