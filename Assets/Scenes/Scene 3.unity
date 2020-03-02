@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &36484029
 CircleCollider2D:
@@ -299,6 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &160254474
 CircleCollider2D:
@@ -431,6 +433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &202259826
 CircleCollider2D:
@@ -563,6 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &215841907
 CircleCollider2D:
@@ -695,6 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &228859889
 CircleCollider2D:
@@ -827,6 +832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &239670407
 CircleCollider2D:
@@ -989,6 +995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &256802582
 CircleCollider2D:
@@ -1121,6 +1128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &317444268
 CircleCollider2D:
@@ -1408,6 +1416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &335791247
 CircleCollider2D:
@@ -1540,6 +1549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &348759464
 CircleCollider2D:
@@ -1626,6 +1636,133 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &351886765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 351886767}
+  - component: {fileID: 351886766}
+  m_Layer: 0
+  m_Name: DeathSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &351886766
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351886765}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0520e29d0a06c834e89392b804ed5507, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &351886767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351886765}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 774390957}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &388793426
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,6 +1944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &541913007
 CircleCollider2D:
@@ -1939,6 +2077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &602407508
 CircleCollider2D:
@@ -2154,6 +2293,134 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724070889}
   m_CullTransparentMesh: 0
+--- !u!1 &774390955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 774390957}
+  - component: {fileID: 774390956}
+  m_Layer: 0
+  m_Name: SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &774390956
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774390955}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 52633201299171d4990bacf1afbf5e85, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &774390957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774390955}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 351886767}
+  m_Father: {fileID: 1272839167}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &780470885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2200,6 +2467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &780470888
 CircleCollider2D:
@@ -2413,6 +2681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &901935710
 CircleCollider2D:
@@ -2545,6 +2814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &986161384
 CircleCollider2D:
@@ -2677,6 +2947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1032237872
 CircleCollider2D:
@@ -2809,6 +3080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1060166283
 CircleCollider2D:
@@ -2941,6 +3213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1101334422
 CircleCollider2D:
@@ -3073,6 +3346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1110974463
 CircleCollider2D:
@@ -3205,6 +3479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1121578947
 CircleCollider2D:
@@ -3410,6 +3685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1189456599
 CircleCollider2D:
@@ -3542,6 +3818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1266305319
 CircleCollider2D:
@@ -3657,6 +3934,7 @@ Transform:
   m_LocalPosition: {x: 0.5947617, y: 0.06549248, z: -10}
   m_LocalScale: {x: 0.216277, y: 0.23390172, z: 1}
   m_Children:
+  - {fileID: 774390957}
   - {fileID: 1608267711}
   - {fileID: 1698906403}
   m_Father: {fileID: 1954999637}
@@ -3759,6 +4037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1320723591
 CircleCollider2D:
@@ -3891,6 +4170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1378921175
 CircleCollider2D:
@@ -4023,6 +4303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1425350171
 CircleCollider2D:
@@ -4155,6 +4436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1429566559
 CircleCollider2D:
@@ -4287,6 +4569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1550835806
 CircleCollider2D:
@@ -4419,6 +4702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1574074274
 CircleCollider2D:
@@ -4551,6 +4835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1595224204
 CircleCollider2D:
@@ -4671,7 +4956,7 @@ RectTransform:
   - {fileID: 325414576}
   - {fileID: 724070890}
   m_Father: {fileID: 1272839167}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4837,7 +5122,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1272839167}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1698906404
 MonoBehaviour:
@@ -5829,6 +6114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1720516478
 CircleCollider2D:
@@ -5961,6 +6247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1780956582
 CircleCollider2D:
@@ -6093,6 +6380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1812382757
 CircleCollider2D:
@@ -6190,6 +6478,7 @@ GameObject:
   - component: {fileID: 1840160015}
   - component: {fileID: 1840160014}
   - component: {fileID: 1840160013}
+  - component: {fileID: 1840160016}
   m_Layer: 0
   m_Name: ScoreKeeper
   m_TagString: Untagged
@@ -6209,6 +6498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 0}
   gemValue: 1
 --- !u!114 &1840160014
 MonoBehaviour:
@@ -6238,6 +6528,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1840160016
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840160012}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 47f45ef7b5767674393cc401fc325705, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1841488563
 GameObject:
   m_ObjectHideFlags: 0
@@ -6284,6 +6670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1841488566
 CircleCollider2D:
@@ -6416,6 +6803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1869606846
 CircleCollider2D:
@@ -6548,6 +6936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1925888081
 CircleCollider2D:
@@ -6690,6 +7079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1a4a84080640147ae00eda00d23ada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathSound: {fileID: 351886766}
 --- !u!4 &1949619464
 Transform:
   m_ObjectHideFlags: 0
@@ -7703,6 +8093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &1996587430
 CircleCollider2D:
@@ -7835,6 +8226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &2003783200
 CircleCollider2D:
@@ -7967,6 +8359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &2040794331
 CircleCollider2D:
@@ -8099,6 +8492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45090766646d54c46832513ef3f1dab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 774390956}
   gemValue: 1
 --- !u!58 &2075412102
 CircleCollider2D:

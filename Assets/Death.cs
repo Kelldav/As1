@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Death : MonoBehaviour
 {
+  public AudioSource DeathSound;
     //player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,16 @@ public class Death : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D col){
       if(col.CompareTag("Player")){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        DeathSound.Play();
+        col.GetComponent<Renderer>().enabled = false;
+        StartCoroutine(Wait());
+
       }
+    }
+    IEnumerator Wait(){
+
+      yield return new WaitForSeconds(0.5f);
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+      print("YES");
     }
 }
